@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Page3 = () => {
   return (
     <div className="page3-container">
-      <h2>Feedback Questionnaire</h2>
+      <h2>Feedback Form Page-3</h2>
       <div className="question">
         <p>How satisfied are you with the treatment you received?</p>
         <select>
@@ -26,7 +26,7 @@ const Page3 = () => {
         </select>
       </div>
       <div className="question">
-        <p>Were your concerns addressed by the healthcare provider?</p>
+        <p>How satisfied were you with the overall communication with the healthcare provider?</p>
         <select>
           <option value="1">Not at all</option>
           <option value="2">Slightly</option>
@@ -36,7 +36,7 @@ const Page3 = () => {
         </select>
       </div>
       <div className="question">
-        <p>Were your concerns addressed by the healthcare provider?</p>
+        <p>How would you rate the explanation of your treatment plan by the healthcare provider?</p>
         <select>
           <option value="1">Not at all</option>
           <option value="2">Slightly</option>
@@ -46,7 +46,7 @@ const Page3 = () => {
         </select>
       </div>
       <div className="question">
-        <p>Were your concerns addressed by the healthcare provider?</p>
+        <p>Were you comfortable discussing your medical history with the healthcare provider?</p>
         <select>
           <option value="1">Not at all</option>
           <option value="2">Slightly</option>

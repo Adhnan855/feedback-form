@@ -27,7 +27,7 @@ const Page2 = () => {
     <div className="page2-container">
       <h2>Feedback Form - Page 2</h2>
       <div className="question">
-        <label>Question 1:</label>
+        <label>How would you rate the cleanliness of the facility?</label>
         <select
           name="question1"
           value={answers.question1}
@@ -41,7 +41,7 @@ const Page2 = () => {
         </select>
       </div>
       <div className="question">
-        <label>Question 2:</label>
+        <label>Did you feel welcomed upon arrival?</label>
         <select
           name="question2"
           value={answers.question2}
@@ -53,7 +53,7 @@ const Page2 = () => {
         </select>
       </div>
       <div className="question">
-        <label>Question 3:</label>
+        <label>How comfortable were the waiting room facilities?</label>
         <select
           name="question3"
           value={answers.question3}
@@ -68,7 +68,7 @@ const Page2 = () => {
         </select>
       </div>
       <div className="question">
-        <label>Question 4:</label>
+        <label>Were you provided with sufficient information about your treatment plan?</label>
         <select
           name="question4"
           value={answers.question4}
@@ -83,7 +83,7 @@ const Page2 = () => {
         </select>
       </div>
       <div className="question">
-        <label>Question 5:</label>
+        <label>How likely are you to recommend our services to others?</label>
         <select
           name="question5"
           value={answers.question5}

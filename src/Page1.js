@@ -10,18 +10,18 @@ const Page1 = () => {
       </h1>
       <div className="wrapper">
         <div className="company-info">
-          <h3>Phoenix Web Design</h3>
+          <h3>Patient FeedBack Form</h3>
           <img src={myimage} className="img1" alt="company logo" />
         </div>
         <div className="contact">
-          <h3>E-mail Us</h3>
+          <h3>Please Enter Your Details</h3>
           <form id="contact-form">
             <p>
-              <label>Name</label>
+              <label>First Name</label>
               <input type="text" name="name" id="name" required />
             </p>
             <p>
-              <label>Company</label>
+              <label>Last Name</label>
               <input type="text" name="company" id="company" />
             </p>
             <p>
